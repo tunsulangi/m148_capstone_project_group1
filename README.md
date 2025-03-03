@@ -11,7 +11,13 @@ Obtained from: https://hazards.fema.gov/nri/data-resources  <br /><br />
 Obtained from: https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data  <br /><br />
 
 `arizona.csv`, `california.csv`, `nevada.csv`, `oregon.csv`, `washington.csv`: matching up the counties, states, and zipcodes for our selection of 5 western states<br />
-Obtained from: <br /><br />
+Obtained from
+- https://www.azleague.org/199/Arizona-City-Town-Data
+- https://data.ca.gov/dataset/california-incorporated-cities
+- https://www.gigasheet.com/sample-data/spreadsheet-list-of-all-cities-in-nevadacsv
+- https://data.oregon.gov/Business/Oregon-City-Zipcode-Counties/g44a-nzix/about_data
+- https://data.wa.gov/demographics/Washington-State-Cities-and-Counties/g2kf-7usg/about_data
+<br /><br />
 
 `avg_temperature_by_county.csv`: average temperature by county<br />
 Obtained from: https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/201712/24/value  <br /><br />

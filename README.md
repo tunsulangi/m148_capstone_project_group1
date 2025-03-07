@@ -36,23 +36,23 @@ Obtained from: https://www.kaggle.com/datasets/erdi28/zip-codes-demographics
 
 `EDA_compiled.ipynb`:  This notebook performs an exploratory data analysis (EDA) on the compiled dataset to understand its structure, distribution, and key characteristics. The analysis includes data cleaning, summary statistics, outlier detection, and visualizations to gain insights into the dataset.  
 
-### 2. **Data Distribution Analysis**  
+### 1. **Data Distribution Analysis**  
 - Summary statistics such as mean, median, and standard deviation are computed.  
 - The presence of missing values is checked.  
 
-### 3. **Outlier Detection**  
+### 2. **Outlier Detection**  
 - The dataset is examined for outliers using statistical measures.  
 - Boxplots and histograms are used to visualize outliers.  
 
-### 4. **Feature Analysis and Correlations**  
+### 3. **Feature Analysis and Correlations**  
 - Relationships between numerical features are explored using correlation matrices.  
 - Heatmaps are generated using `seaborn` to highlight correlated variables.  
 
-### 5. **Data Visualization**  
+### 4. **Data Visualization**  
 - Various visualizations, including histograms, scatter plots, and boxplots, are created to better understand feature distributions.  
 - `matplotlib` and `seaborn` are used for visualizations.  
 
-### 6. **Handling Missing Data**  
+### 5. **Handling Missing Data**  
 - Strategies such as imputation or dropping missing values are used.  
   
 

@@ -32,6 +32,10 @@ Obtained from
 `zip_code_demographics.csv`: Distance to highway, a large airport, medium airport,	and shore,	number of businesses, adjusted gross income,	and total income.<br />
 Obtained from: https://www.kaggle.com/datasets/erdi28/zip-codes-demographics
 
+## Main Dataset Construction
+
+`data_merged.Rmd` : This R Markdown file performs additional preprocessing and cleaning on the aggregated datasets. It then merges these datasets to create a comprehensive dataset that integrates information from all available sources.
+
 ## Exploratory Data Analysis
 
 `EDA_compiled.ipynb`:  This notebook performs an exploratory data analysis (EDA) on the compiled dataset to understand its structure, distribution, and key characteristics. The analysis includes data cleaning, summary statistics, outlier detection, and visualizations to gain insights into the dataset.  

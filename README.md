@@ -36,30 +36,23 @@ Obtained from: https://www.kaggle.com/datasets/erdi28/zip-codes-demographics
 
 `EDA_compiled.ipynb`:  This notebook performs an exploratory data analysis (EDA) on the compiled dataset to understand its structure, distribution, and key characteristics. The analysis includes data cleaning, summary statistics, outlier detection, and visualizations to gain insights into the dataset.  
 
-### Steps in the EDA  
-
-#### 1. **Loading the Dataset**  
-- The dataset is loaded using `pandas.read_csv()`.  
-- The first column is dropped, likely because it contains an unnecessary index.  
-- Column names are examined for correctness.  
-
-#### 2. **Data Distribution Analysis**  
+### 2. **Data Distribution Analysis**  
 - Summary statistics such as mean, median, and standard deviation are computed.  
 - The presence of missing values is checked.  
 
-#### 3. **Outlier Detection**  
+### 3. **Outlier Detection**  
 - The dataset is examined for outliers using statistical measures.  
 - Boxplots and histograms are used to visualize outliers.  
 
-#### 4. **Feature Analysis and Correlations**  
+### 4. **Feature Analysis and Correlations**  
 - Relationships between numerical features are explored using correlation matrices.  
 - Heatmaps are generated using `seaborn` to highlight correlated variables.  
 
-#### 5. **Data Visualization**  
+### 5. **Data Visualization**  
 - Various visualizations, including histograms, scatter plots, and boxplots, are created to better understand feature distributions.  
 - `matplotlib` and `seaborn` are used for visualizations.  
 
-#### 6. **Handling Missing Data**  
+### 6. **Handling Missing Data**  
 - Strategies such as imputation or dropping missing values are used.  
   
 
@@ -67,27 +60,21 @@ Obtained from: https://www.kaggle.com/datasets/erdi28/zip-codes-demographics
 
 `M148_model_development.ipynb`: This notebook develops a machine learning model to predict apartment rental prices based on various features. The analysis includes data preprocessing, feature selection, model training, and evaluation using regression techniques. 
 
-### 1. **Data Loading and More Exploration**  
-- The dataset is loaded using `pandas.read_csv()`.  
-- Initial exploratory data analysis (EDA) includes distribution analysis of `dollar_per_sq_ft`.  
-- Visualizations using `seaborn` and `matplotlib` provide insights into the data.  
-
-### 2. **Data Preprocessing**  
-- Handling missing values.  
+### 1. **Data Preprocessing**  
 - Encoding categorical features using `OneHotEncoder`.  
 - Standardizing numerical features using `StandardScaler`.  
 
-### 3. **Feature Selection and Engineering**  
+### 2. **Feature Selection and Engineering**  
 - Identifying relevant variables for the model.  
 - Creating new features if necessary.  
 
-### 4. **Model Training and Hyperparameter Tuning**  
+### 3. **Model Training and Hyperparameter Tuning**  
 - Splitting data into training and test sets using `train_test_split`.  
-- Training a Ridge regression model (`Ridge` and `RidgeCV`).  
+- Training models.
 - Using `GridSearchCV` to optimize hyperparameters.  
 
-### 5. **Model Evaluation**  
-- Assessing model performance using Mean Squared Error (MSE).  
+### 4. **Model Evaluation**  
+- Assessing model performance using Mean Squared Error (MSE) and $R^2$.  
 - Visualizing model predictions versus actual values.  
 
 ### Running the Notebook  
